@@ -2,6 +2,7 @@ idf_component_register(
     SRCS 
     	"RAM_LITE_DB_MAIN.c"
     	"Main_Shell.c"
+    	"Ram_Lite_Engine.c"
     PRIV_REQUIRES spi_flash
     INCLUDE_DIRS ""
 )
